@@ -6,11 +6,12 @@ A more thorough (and extensible) npm init.
 
 ```
 $ git clone https://github.com/pacocoursey/ni.git
-$ npm install
-$ npm link
+$ sudo npm install -g
 ```
 
 ## Usage
+
+Run `ni` in any folder you wish to initialize a new project.
 
 ```
 $ ni
