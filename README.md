@@ -12,4 +12,6 @@ $ npm link
 
 ## Usage
 
-`$ ni`
+```
+$ ni
+```
