@@ -46,7 +46,10 @@ async function init() {
   const pretty = print(answers);
   log(`\n${pretty}\n`);
 
-  // TODO: ensureFile(start point)
+  // Ensure that the entry point file exists
+  fs.ensureFile(answers.main, (err) => {
+    if (err) { error(err); }
+  });
 
   // Confirm creation of the package, exit otherwise
   const c = await prompts(confirmation, { onCancel });
