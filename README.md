@@ -16,3 +16,9 @@ Run `ni` in any folder you wish to initialize a new project.
 ```
 $ ni
 ```
+
+#
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/pacocoursey/pacocoursey.github.io/master/footer.png" height="300">
+</p>
