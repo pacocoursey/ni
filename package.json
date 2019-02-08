@@ -2,7 +2,7 @@
   "name": "ni",
   "version": "0.0.1",
   "description": "a more thorough npm init.",
-  "repository": "pacocoursey/ni",
+  "repository": "",
   "main": "./src/index.js",
   "scripts": {
     "lint": "eslint --ignore-path .gitignore .",
@@ -12,7 +12,6 @@
     "ni": "./src/index.js"
   },
   "author": "Paco Coursey <paco@pacocoursey.com> (pacocoursey.com)",
-  "repository": "",
   "license": "MIT",
   "dependencies": {
     "clorox": "^1.0.3",
